@@ -1,0 +1,74 @@
+body {
+  background-color: #708090;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+#barChart {
+  margin: auto;
+}
+.forGrey {
+  color: #8e8883;
+}
+.tick line {
+  stroke: #8e8883;
+}
+#borderRect {
+  border-right: none;
+}
+.xAxisLabel {
+  font-size: 2em;
+  fill: #8e8883;
+}
+.yAxisLabel {
+  font-size: 2em;
+  fill: #8e8883;
+  text-anchor: middle;
+}
+#title {
+  font-size: 2em;
+  text-anchor: middle;
+  fill: #635f5d;
+}
+.bar:hover {
+  fill: yellow;
+}
+#tooltip {
+  position: absolute;
+  text-align: center;
+  min-width: 150px;
+  min-height: 20px;
+  padding: 10px;
+  font-size: 20px;
+  background: lightsteelblue;
+  border: 0px;
+  border-radius: 12px;
+  pointer-events: none;
+  font-weight: bold;
+  box-shadow: 1px 2px 20px 2px #000000;
+}
+
+.textSource {
+  font-style: italic;
+  font-size: 12px;
+  text-anchor: end;
+  fill: #464442;
+}
+.linkSource {
+  fill: #464442;
+  text-decoration: none;
+}
+
+a {
+  text-decoration: underline;
+  font-weight: bold;
+  color: white;
+}
+.nameAuthor {
+  font-size: 30px;
+  padding-bottom: 30px;
+  margin: auto;
+  color: white;
+  margin-top: 30px;
+  text-shadow: 2px 2px #000000;
+}
